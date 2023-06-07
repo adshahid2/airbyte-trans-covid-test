@@ -24,7 +24,7 @@
 -- depends_on: {{ ref('covidcovid_epidemiology_ab3') }}
 select
     {{ adapter.quote('date') }},
-    new_recovered,
+    new_recovered AS 'New_Recov_AD',
     new_tested,
     total_deceased ,
     new_deceased,
