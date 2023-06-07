@@ -24,12 +24,12 @@
 -- depends_on: {{ ref('covidcovid_epidemiology_ab3') }}
 select
     {{ adapter.quote('date') }},
-    new_recovered AS New_Recov_AD,
+    new_recovered AS New_Recov_ADDDDDDDD,
     new_tested,
     total_deceased ,
     new_deceased,
     new_confirmed,
-    total_confirmed,
+    total_confirmed AS TOTAL_CONFIRMED_ADDDDDD,
     total_tested,
     total_recovered,
     {{ adapter.quote('key') }},
