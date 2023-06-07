@@ -1,0 +1,1 @@
+{"ssl":false,"host":"host.docker.internal","port":3000,"schema":"public","database":"postgres","password":"password","ssl_mode":{"mode":"allow"},"username":"postgres","tunnel_method":{"tunnel_method":"NO_TUNNEL"}}
